@@ -15,7 +15,7 @@ Demo video:
 
 ### Describe how the final hyperparameters were chosen.
 
-Trial & error mostly. I tweaked mainmy Kp & Kd.
+Trial & error mostly. I tweaked mainly Kp & Kd.
 
 ---
 

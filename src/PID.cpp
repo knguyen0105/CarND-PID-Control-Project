@@ -24,7 +24,6 @@ void PID::Init(double Kp, double Ki, double Kd) {
 void PID::UpdateError(double cte) {
     sse += cte*cte;
     //double avg_error = sse / n;
-    //cout << n-1 << ";" << average_error << ";" << cte << endl;
     //n++; 
 
     this->d_error = cte - this->p_error;
