@@ -17,6 +17,8 @@ public:
   double Ki;
   double Kd;
 
+  int n;
+  double sse;
   /*
   * Constructor
   */
