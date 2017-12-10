@@ -4,9 +4,9 @@ My submission for Project 4, Term 2, SDC
 ## Reflection
 
 ### The effect of each component P,I,D:
-- P (proportional): if the error is large, the steering angle is large and the car tends to overshoot.
-- D (differential): prevent overshooting
-- I (integral): prevent bias in the cross check error.
+- P (proportional): this error is directly proportinal to CTE. The car will overshoot the target if this error is large.
+- D (differential): reduce overshooting
+- I (integral): reduce bias in the cross check error.
 
 Demo video with P = -0.1, D = -2.2, I = -0.0002
 ![Sample Video Output](video/demo.gif)
