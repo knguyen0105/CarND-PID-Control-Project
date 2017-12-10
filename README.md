@@ -1,5 +1,21 @@
 # CarND-Controls-PID
-Self-Driving Car Engineer Nanodegree Program
+My submission for Project 4, Term 2, SDC
+
+## Reflection
+
+### The effect of each component P,I,D:
+- P (proportional): if the error is large, the steering angle is large and the car tends to overshoot.
+- D (differential): prevent overshooting
+- I (integral): prevent bias in the cross check error.
+
+Demo video:
+
+![Sample Video Output](video/demo.gif)
+
+
+### Describe how the final hyperparameters were chosen.
+
+Trial & error mostly. I tweaked mainmy Kp & Kd.
 
 ---
 
