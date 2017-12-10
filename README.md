@@ -8,8 +8,7 @@ My submission for Project 4, Term 2, SDC
 - D (differential): prevent overshooting
 - I (integral): prevent bias in the cross check error.
 
-Demo video:
-
+Demo video with P = -0.1, D = -2.2, I = -0.0002
 ![Sample Video Output](video/demo.gif)
 
 
